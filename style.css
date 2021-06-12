@@ -1,0 +1,23 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    font-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-duration: 1.5s;
+    animation-name: fadein;
+}
